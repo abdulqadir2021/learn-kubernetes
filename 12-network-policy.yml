@@ -57,4 +57,13 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: debug
+  namespace: web
+spec:
+  containers:
+    - name: debug
+      image: rkalluru/debug
