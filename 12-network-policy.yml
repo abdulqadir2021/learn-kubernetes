@@ -95,7 +95,6 @@ spec:
           port: 80
   egress:
     - {}
-
 ---
 apiVersion: v1
 kind: Namespace
