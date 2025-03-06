@@ -90,9 +90,6 @@ spec:
         - namespaceSelector:
             matchLabels:
               ns: web
-        - podSelector:
-            matchLabels:
-              role: frontend
       ports:
         - protocol: TCP
           port: 80
