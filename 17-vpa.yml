@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: VPA-test
+  name: vpa-test
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: VPA
+      app: vpa
   template:
     metadata:
       labels:
-        app: VPA
+        app: vpa
     spec:
       containers:
-        - name: VPA
-          image: rkalluru/VPA
+        - name: vpa
+          image: rkalluru/vpa
           imagePullPolicy: Always
           resources:
             requests:
