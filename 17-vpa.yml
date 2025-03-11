@@ -38,8 +38,8 @@ spec:
       - containerName: '*'
         minAllowed:
           cpu: 250m
-          memory: 50Mi
+          memory: 20Mi
         maxAllowed:
-          cpu: 500m
+          cpu: 1000m
           memory: 100Mi
-        controlledResources: ["cpu"]
+        controlledResources: ["cpu", "memory"]
