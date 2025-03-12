@@ -43,3 +43,4 @@ spec:
           cpu: 1000m
           memory: 100Mi
         controlledResources: ["cpu", "memory"]
+
