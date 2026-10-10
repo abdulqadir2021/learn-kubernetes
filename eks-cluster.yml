@@ -8,5 +8,6 @@ metadata:
 
 managedNodeGroups:
   - name: ng-1
+    instanceType: t3.small
     desiredCapacity: 1
     spot: true
